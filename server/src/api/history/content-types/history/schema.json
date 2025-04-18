@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "histories",
+  "info": {
+    "singularName": "history",
+    "pluralName": "histories",
+    "displayName": "History",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "originalText": {
+      "type": "text"
+    },
+    "improvedText": {
+      "type": "text"
+    },
+    "analysis": {
+      "type": "richtext"
+    }
+  }
+}
